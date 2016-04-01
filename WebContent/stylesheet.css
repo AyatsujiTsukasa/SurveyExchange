@@ -1,0 +1,264 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #F7D9B8;
+}
+
+.sidebar {
+	float: right;
+	font-size: 20px;
+}
+
+.welcomeMessage {
+	font-size: 30px;
+	font-family: Arial;
+}
+
+.credit {
+	color: #4D4339;
+	font-size: 25px;
+}
+
+.sidebarOptions {
+	color: #787164;
+	cursor: pointer;
+}
+
+.addNew {
+	color: #808080;
+	border-width: 3px;
+	border-color: #808080;
+	border-style: dashed;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+* {
+	font-family: Arial;
+}
+
+.addNewC {
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+	width: 600px;
+	height: 30px;
+}
+
+.addNewQ {
+	text-align: center;
+	line-height: 160px;
+	font-size: 40px;
+	width: 1200px;
+	height: 160px;
+}
+
+.choiceList {
+	list-style-type: none;
+}
+
+.Choice {
+	width: 400px;
+	height: 20px;
+	font-size: 20px;
+}
+
+.AnsTitle {
+	width: 800px;
+	height: 25px;
+	font-size: 25px;
+}
+
+.AnswerText {
+	font-size: 20px;
+}
+
+#SurveyTitle{
+	width: 750px;
+	height: 30px;
+	font-size: 30px;
+}
+
+#expNumReply {
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
+textarea {
+	font-size: 20px;
+}
+
+.choiceGrp {
+	margin: 0px;
+}
+
+.creditNotEnough {
+	color: red;
+}
+
+.sampleTitle {
+	text-align: center;
+}
+
+.rights{
+	text-align: right;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.homeDiv {
+	height: 538px;
+	display: inline-table;
+}
+
+#selfFeed {
+	width: 250px;
+	background-color: #B0A79A;
+	border-radius: 8px;
+}
+
+#otherFeed {
+	width: 980px;
+	background-color: #B0A79A;
+	border-radius: 8px;
+}
+
+ul {
+	padding-left: 20px;
+	margin: 0px;
+}
+
+.newResponseList {
+	background-color: transparent;
+}
+
+.newResponse{
+	margin-top: 2px;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	max-width: 250px;
+	height: 94px;
+	position: relative;
+}
+
+.SurveyFeed {
+	background-color: transparent;
+}
+
+.feed {
+	margin-top: 2px;
+	border-radius: 8px;
+	background-color: #404040;
+	max-width: 980px;
+	height: 157px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: white;
+}
+
+.feed h2{
+	text-align: center;
+}
+
+.otherFeedDesc {
+	font-size: 20px;
+}
+
+.newResponseList h3{
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B0A79A;
+}
+
+.SurveyFeed h2{
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B0A79A;
+}
+
+.feedTitle{
+	text-align: center;
+}
+
+.homeDiv p{
+	margin: 0px;
+}
+
+.homeDiv form {
+	position: absolute;
+	bottom: 0px;
+}
+
+#title {
+	text-align: center;
+	font-size: 40px;
+	font-family: cursive;
+}
+
+.survey {
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.survey h2 {
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-color: #F7D9B8;
+	border-bottom-style: solid;
+}
+
+.survey p {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-bottom-width: 20px;
+}
+
+fieldset {
+	border-radius: 5px;
+	background-color: #E7C9A8;
+}
+
+legend {
+	background-color: transparent;
+	border-radius: 3px;
+	font-size: 20px;
+}
+
+.mySurveyContent td {
+	padding: 0px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+.mySurveyTitle {
+	font-size: 30px;
+	text-align: center;
+}
+
+.mySurveyDesc {
+	border-bottom-style: double;
+	border-top-style: double;
+	font-size: 23px;
+}
+
+.myNumReplies {
+	text-align: right;
+	font-size: 20px;
+}
